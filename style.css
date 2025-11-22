@@ -1,0 +1,206 @@
+/* Removing initial margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* giving the body background color and removing extra overflow */
+
+body {
+    background-color: rgb(172, 203, 218);
+    overflow-x: hidden;
+}
+
+/* styling the header */
+header {
+    width: 100vw;
+    height: 15vh;
+    background-color: rgb(0, 47, 117);
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+header h1 {
+    color: white;
+    font-family: poppins, sans-serif;
+    font-weight: 900;
+}
+
+header nav ul {
+    list-style-type: none;
+    font-family: poppins, sans-serif;
+    font-weight: 400;
+}
+header nav ul li{
+    display: inline-block;
+    margin: 2vh 2vw;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav ul li a:hover{
+    text-decoration: underline;
+}
+
+/* styling the prominent main tag components */
+
+main h1 {
+    text-align: center;
+    font-family: poppins, sans-serif;
+    font-weight: 900;
+    margin: 4vh auto;
+}
+
+main hr {
+    width: 100vw;
+    height: 1vh;
+    background-color: darkblue;
+    margin: 3vh 0;
+}
+
+/* styling the hero section  */
+
+#hero {
+    text-align: center;
+}
+
+#hero img {
+    border-radius: 50%;
+    margin: 5vh;
+}
+
+#hero img:hover {
+    outline: 10px solid darkblue;
+    cursor: pointer;
+}
+
+#hero h2 {
+    cursor: pointer;
+    font-family: 'Noto sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0 auto 1vh auto;
+}
+
+#hero p {
+    font-family: 'Noto sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 3vh;
+}
+
+/* styling the project section */
+
+#projects h2 {
+    font-family: 'Noto sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 2vh 1vw;
+}
+
+#projects article {
+    font-family: 'Noto sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 1vh 2vw;
+}
+
+#projects article:hover {
+    border: 8px solid darkblue;
+    box-sizing: border-box;
+    padding: 2vh 2vw;
+    background-color: rgb(213, 227, 235);
+    cursor: pointer;
+}
+
+/* styling the skills section */
+
+#skills h2 {
+    cursor: pointer;
+    font-family: 'Noto sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 2vh;
+}
+
+#skills table {
+    margin: auto;
+    border: 10px solid darkblue;
+    font-family: 'Noto sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#skills th{
+    padding: 1vh 2vw;
+    border: 2px solid darkblue;
+    text-align: center;
+    cursor: pointer;
+    background-color: darkblue;
+    color: white;
+}
+
+#skills td {
+    padding: 1vh 2vw;
+    border: 2px solid darkblue;
+    text-align: center;
+    cursor: pointer;
+}
+
+#skills td:hover {
+    background-color: rgb(213, 227, 235);
+}
+
+#skills th:hover {
+    background-color: rgb(213, 227, 235);
+    color: black;
+}
+
+/* styling the contact section */
+
+#contact{
+    text-align: center;
+    font-family: 'Noto sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#contact table{
+    border: 10px solid darkblue;
+    margin: 5vh auto;
+}
+#contact td{
+    border: 2px solid darkblue;
+    font-family: 'Noto sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+#contact td > input,textarea {
+    font-size: 20px;
+    font-family: 'Noto sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(220, 232, 245);
+}
+
+#contact td > input[type="submit"]{
+    background-color: darkblue;
+    color: white;
+}
+
+/* styling the last hr tag for bold line */
+
+#last {
+    font-family: 'Noto sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 5vh;
+    margin: auto;
+}
+
+/* styling the back to top button */
+
+#btp{
+    padding: 1vh 2vw;
+    font-size: 1rem;
+    background-color: darkblue;
+    color: white;
+    border: 2px solid darkblue;
+    position: fixed;
+    bottom: 8vh;
+    right: 1vw;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: poppins, sans-serif;
+}
+#btp:hover{
+    background-color: rgb(0, 0, 184);
+}   
