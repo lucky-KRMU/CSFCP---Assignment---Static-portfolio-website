@@ -23,13 +23,14 @@ Since this is a static project utilizing only HTML and CSS, no external librarie
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [DUMMY LINK: [https://github.com/LuckyPawar/my-portfolio.git](https://github.com/LuckyPawar/my-portfolio.git)]
+    git clone https://github.com/lucky-KRMU/CSFCP---Assignment---Static-portfolio-website.git
     ```
 2.  **Open the Webpage:**
     Navigate to the cloned directory and open the `index.html` file directly in any modern web browser (e.g., Chrome, Firefox, Edge).
 
 ## 📸 Screenshots of the Application
 
+![Portfolio Webpage Screenshot](image.png)
 
 
 ---
@@ -37,9 +38,9 @@ Since this is a static project utilizing only HTML and CSS, no external librarie
 ## 📚 Documentation
 
 For detailed information regarding the development process and future plans, please refer to the dedicated documentation folder:
-* [DUMMY LINK: Link to docs/overview.md] (Project Overview)
-* [DUMMY LINK: Link to docs/development.md] (Development Process)
-* [DUMMY LINK: Link to docs/future_improvements.md] (Future Improvements)
+* [Link to docs/overview.md](https://github.com/lucky-KRMU/CSFCP---Assignment---Static-portfolio-website/blob/main/docs/folder/overview.md) (Project Overview)
+* [Link to docs/development.md](https://github.com/lucky-KRMU/CSFCP---Assignment---Static-portfolio-website/blob/main/docs/folder/development.md) (Development Process)
+* [Link to docs/future_improvements.md](https://github.com/lucky-KRMU/CSFCP---Assignment---Static-portfolio-website/blob/main/docs/folder/future_improvements.md) (Future Improvements)
 
 ***
 
